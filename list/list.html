@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/94c48ee840.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style/list.css" />
+    <title>List</title>
+  </head>
+
+  <body>
+    <!--Header 영역-->
+    <header class="header">
+      <!--Browser Nav Bar-->
+      <!--Sub Nav-->
+      <div class="nav">
+        <div class="navbar-wrap">
+          <div class="navbar-wrap-inner">
+            <h1 class="navbar-logo">
+              <a href="/">
+                <img src="../assets/stardabang-logo.png" alt="Stardabang" />
+              </a>
+            </h1>
+
+            <nav class="sub-navbar-wrap">
+              <ul class="sub-navbar-inner">
+                <li>
+                  <a href="/">Sign In</a>
+                </li>
+                <li>
+                  <a href="/">My Stardabang</a>
+                </li>
+              </ul>
+            </nav>
+            <p class="search-bar-btn">
+              <a href="/">
+                <img src="../assets/search-bar-icon.png" alt="통합검색" />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Main Nav-->
+      <nav class="main-navbar">
+        <div class="main-navbar-wrap">
+          <ul class="main-navbar-inner">
+            <li class="main-nav1">
+              <a href="/">COFFEE</a>
+            </li>
+            <li class="main-nav2">
+              <a href="/">MENU</a>
+            </li>
+            <li class="main-nav3">
+              <a href="/">STORE</a>
+            </li>
+            <li class="main-nav4">
+              <a href="/">RESPONSIBILITY</a>
+            </li>
+            <li class="main-nav5">
+              <a href="/">STARDABANG REWARDS</a>
+            </li>
+            <li class="main-nav6">
+              <a href="/">WHAT'S NEW</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!--음료 메인 타이틀-->
+    <div class="list-wrap">
+      <div class="list-menu-title">
+        <h2>음료</h2>
+      </div>
+      <!--음료 서브 타이틀-->
+      <div class="list-menu-wrap">
+        <dl class="list-menu">
+          <dt class="sub-list-menu-title">
+            <a href="/">스타벅스 피지오</a>
+            <img src="../assets/decaf-icon.png" alt="디카페인 아이콘" />
+            <span>디카페인 에스프레소 샷 추가 가능 (일부 음료 제외)</span>
+          </dt>
+          <!--음료 상품 리스트-->
+          <dd class="list-menu-product-wrap">
+            <dl class="list-menu-product">
+              <div class="like-btn-box">
+                <input
+                  type="checkbox"
+                  name="likeBtn"
+                  value="likeBtn"
+                  class="likeBtnBox"
+                />
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <dt>
+                <a href="/">
+                  <img
+                    src="../assets/beverage-card1.jpg"
+                    alt="블랙 티 레모네이드 피지오"
+                  />
+                </a>
+              </dt>
+              <dd>블랙 티 레모네이드 피지오</dd>
+            </dl>
+            <dl class="list-menu-product">
+              <div class="like-btn-box">
+                <input
+                  type="checkbox"
+                  name="likeBtn"
+                  value="likeBtn"
+                  class="likeBtnBox"
+                />
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <dt>
+                <a href="/">
+                  <img
+                    src="../assets/beverage-card2.png"
+                    alt="유자 패션 피지오"
+                  />
+                </a>
+              </dt>
+              <dd>유자 패션 피지오</dd>
+            </dl>
+            <dl class="list-menu-product">
+              <div class="like-btn-box">
+                <input
+                  type="checkbox"
+                  name="likeBtn"
+                  value="likeBtn"
+                  class="likeBtnBox"
+                />
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <dt>
+                <a href="/">
+                  <img
+                    src="../assets/beverage-card3.png"
+                    alt="쿨 라임 피지오"
+                  />
+                </a>
+              </dt>
+              <dd>쿨 라임 피지오</dd>
+            </dl>
+            <dl class="list-menu-product">
+              <div class="like-btn-box">
+                <input
+                  type="checkbox"
+                  name="likeBtn"
+                  value="likeBtn"
+                  class="likeBtnBox"
+                />
+                <i class="fa-regular fa-heart"></i>
+              </div>
+              <dt>
+                <a href="/">
+                  <img
+                    src="../assets/beverage-card4.png"
+                    alt="패션 탱고 티 레모네이드 피지오"
+                  />
+                </a>
+              </dt>
+              <dd>패션 탱고 티 레모네이드 피지오</dd>
+            </dl>
+          </dd>
+        </dl>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-wrap">
+        <div class="footer-wrap-inner">
+          <ul>
+            <li>COMPANY</li>
+            <li class="footer-first-title">한눈에 보기</li>
+            <li class="footer-list">스타벅스 사명</li>
+            <li class="footer-list">스타벅스 소개</li>
+            <li class="footer-list">국내 뉴스룸</li>
+            <li class="footer-list">세계의 스타벅스</li>
+            <li class="footer-list">글로벌 뉴스룸</li>
+          </ul>
+          <ul>
+            <li>CORPORATE SALES</li>
+            <li class="footer-first-title">단체 및 기업 구매 안내</li>
+            <li class="footer-list">단체 주문 배달 안내</li>
+          </ul>
+          <ul>
+            <li>PARTNERSHIP</li>
+            <li class="footer-first-title">신규 입점 제의</li>
+            <li class="footer-list">협력 고객사 등록신청</li>
+          </ul>
+          <ul>
+            <li>ONLINE COMMUNITY</li>
+            <li class="footer-first-title">페이스북</li>
+            <li class="footer-list">트위터</li>
+            <li class="footer-list">유튜브</li>
+            <li class="footer-list">인스타그램</li>
+          </ul>
+          <ul>
+            <li>RECRUIT</li>
+            <li class="footer-first-title">채용 소개</li>
+            <li class="footer-list">채용 지원하기</li>
+          </ul>
+        </div>
+        <ul class="copy-menu">
+          <li>사업자등록번호 : 201-81-21555</li>
+          <li>주식회사 에스에스컴퍼니 대표이사 : 김길동</li>
+          <li>TEL : 1522-1212</li>
+          <li>개인정보 책임자 : 홍길동</li>
+        </ul>
+        <div class="copy-en">
+          ⓒ 2021 Stardabang Company. All Rights Reserved.
+        </div>
+      </div>
+    </footer>
+    <script src="./list.js"></script>
+  </body>
+</html>

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://fonts.cdnfonts.com/css/avenir" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap"
+      rel="stylesheet"
+    />
+    <title>Login</title>
+    <link rel="stylesheet" href="../style/login.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="header">
+      <!--Sub Nav-->
+      <div class="nav">
+        <div class="navbar-wrap">
+          <div class="navbar-wrap-inner">
+            <h1 class="navbar-logo">
+              <a href="/">
+                <img src="../assets/stardabang-logo.png" alt="Stardabang" />
+              </a>
+            </h1>
+            <nav class="sub-navbar-wrap">
+              <ul class="sub-navbar-inner">
+                <li>
+                  <a href="/">Sign In</a>
+                </li>
+                <li>
+                  <a href="/">My Stardabang</a>
+                </li>
+              </ul>
+            </nav>
+            <p class="search-bar-btn">
+              <a href="/">
+                <img src="../assets/search-bar-icon.png" alt="통합검색" />
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Main Nav-->
+      <nav class="main-navbar">
+        <div class="main-navbar-wrap">
+          <ul class="main-navbar-inner">
+            <li class="main-nav1">
+              <a href="/">COFFEE</a>
+            </li>
+            <li class="main-nav2">
+              <a href="/">MENU</a>
+            </li>
+            <li class="main-nav3">
+              <a href="/">STORE</a>
+            </li>
+            <li class="main-nav4">
+              <a href="/">RESPONSIBILITY</a>
+            </li>
+            <li class="main-nav5">
+              <a href="/">STARDABANG REWARDS</a>
+            </li>
+            <li class="main-nav6">
+              <a href="/">WHAT'S NEW</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <!--Login Form-->
+    <section>
+      <div class="login-container">
+        <h1 class="login-title">로그인</h1>
+        <div class="login-guide-form">
+          <h2 class="login-guide">
+            <span>Welcome!</span> 별다방 코리아에 오신 것을 환영합니다.
+          </h2>
+          <div class="login-input-form">
+            <form action="" method="POST">
+              <input
+                type="text"
+                placeholder="아이디를 입력해 주세요."
+                class="id-input"
+                required
+              />
+              <div class="error-mg id-error">아이디를 입력해주세요</div>
+              <input
+                type="password"
+                placeholder="비밀번호를 입력해 주세요."
+                class="pw-input"
+                required
+              />
+              <div class="error-mg pw-error">비밀번호를 입력해주세요</div>
+              <div class="login-id-save">
+                <input type="checkbox" name="save" value="id" id="saveId" />
+                <label for="saveId">아이디 저장</label>
+              </div>
+              <button type="submit" class="login-btn">로그인</button>
+            </form>
+            <p class="login-input-warn-text">
+              * 타 사이트와 비밀번호를 동일하게 사용할 경우 도용의 위험이
+              있으므로, 정기적인 비밀번호 변경을 해주시길 바랍니다. <br />
+              * 스타벅스 코리아의 공식 홈페이지는 Internet Explorer 9.0 이상,
+              Chrome, Firefox, Safari 브라우저에 최적화 되어있습니다.
+            </p>
+          </div>
+          <div class="login-btn-wrap">
+            <ul class="login-btn-list">
+              <li class="login-btn-type">
+                <a href="/" class="signup">회원 가입</a>
+              </li>
+              <li class="login-btn-type">
+                <a href="/" class="find-id">아이디 찾기</a>
+              </li>
+              <li class="login-btn-type">
+                <a href="/" class="find-pw">비밀번호 찾기</a>
+              </li>
+            </ul>
+          </div>
+          <!--Footer-->
+          <footer class="footer">
+            <div class="footer-wrap">
+              <div class="footer-wrap-inner">
+                <ul>
+                  <li>COMPANY</li>
+                  <li class="footer-first-title">한눈에 보기</li>
+                  <li class="footer-list">스타벅스 사명</li>
+                  <li class="footer-list">스타벅스 소개</li>
+                  <li class="footer-list">국내 뉴스룸</li>
+                  <li class="footer-list">세계의 스타벅스</li>
+                  <li class="footer-list">글로벌 뉴스룸</li>
+                </ul>
+                <ul>
+                  <li>CORPORATE SALES</li>
+                  <li class="footer-first-title">단체 및 기업 구매 안내</li>
+                  <li class="footer-list">단체 주문 배달 안내</li>
+                </ul>
+                <ul>
+                  <li>PARTNERSHIP</li>
+                  <li class="footer-first-title">신규 입점 제의</li>
+                  <li class="footer-list">협력 고객사 등록신청</li>
+                </ul>
+                <ul>
+                  <li>ONLINE COMMUNITY</li>
+                  <li class="footer-first-title">페이스북</li>
+                  <li class="footer-list">트위터</li>
+                  <li class="footer-list">유튜브</li>
+                  <li class="footer-list">인스타그램</li>
+                </ul>
+                <ul>
+                  <li>RECRUIT</li>
+                  <li class="footer-first-title">채용 소개</li>
+                  <li class="footer-list">채용 지원하기</li>
+                </ul>
+              </div>
+              <ul class="copy-menu">
+                <li>사업자등록번호 : 201-81-21555</li>
+                <li>주식회사 에스에스컴퍼니 대표이사 : 김길동</li>
+                <li>TEL : 1522-1212</li>
+                <li>개인정보 책임자 : 홍길동</li>
+              </ul>
+              <div class="copy-en">
+                ⓒ 2021 Stardabang Company. All Rights Reserved.
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </section>
+    <script src="./login.js"></script>
+  </body>
+</html>
